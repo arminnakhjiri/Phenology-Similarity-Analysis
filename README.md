@@ -102,6 +102,23 @@ Typical applications include:
 
 ---
 
+## 🔗 Related Repositories
+
+This project is part of a three-step raster time-series analysis workflow:
+
+1. **Raster-TimeSeries-Builder**  
+   Automatically extracts a specified band from multiple raster stacks and combines it into a chronologically ordered multi-band GeoTIFF.  
+   https://github.com/arminnakhjiri/Raster-TimeSeries-Builder
+
+2. **Raster-TimeSeries-Clustering-DTW-KMeans**  
+   Clusters raster pixel time series using Dynamic Time Warping (DTW) K-Means to identify regions with similar temporal behavior.  
+   https://github.com/arminnakhjiri/Raster-TimeSeries-Clustering-DTW-KMeans
+
+3. **Raster-TimeSeries-Similarity-Analysis** *(this repository)*  
+   Compares clustered temporal signatures against a reference time series using multiple similarity metrics and ranks the clusters by overall similarity.
+
+---
+
 ## 📄 License
 
 MIT License
